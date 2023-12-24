@@ -1,5 +1,25 @@
 # Tail-Loss-Primates
-This repository contains scripts used for identifying hominoid-specific variants in genes related to tail development. 
+This repository contains scripts and processed data used for the project studying the genetic basis of tail-loss evolution in humans and apes (hominoids). 
+
+The related manuscript information: 
+Title: On the genetic basis of tail-loss evolution in humans and apes
+
+Bo Xia1,2,3,4†, Weimin Zhang2*, Guisheng Zhao1,2*, Xinru Zhang3,5*, Jiangshan Bai3, Ran Brosh2, Aleksandra Wudzinska2, Emily Huang2, Hannah Ashe2, Gwen Ellis2, Maayan Pour1,2, Yu Zhao2, Camila Coelho2, Yinan Zhu2, Alexander Miller6, Jeremy S. Dasen6, Matthew T. Maurano2, Sang Y. Kim7, Jef D. Boeke2,8,9† and Itai Yanai1,2,8†
+
+1 Institute for Computational Medicine, NYU Langone Health, New York, NY 10016, USA
+2 Institute for Systems Genetics, NYU Langone Health, New York, NY 10016, USA
+3 Gene Regulation Observatory, Institute of MIT and Harvard, Cambridge, MA, 02142, USA
+4 Society of Fellows, Harvard University, Cambridge, MA, 02138, USA
+5 Department of Biology, Pennsylvania State University, University Park, PA, 16802, USA
+6 Department of Neuroscience and Physiology, NYU Langone Health, New York, NY 10016, USA
+7 Department of Pathology, NYU Langone Health, New York, NY 10016, USA
+8 Department of Biochemistry and Molecular Pharmacology, NYU Langone Health, New York, NY 10016, USA
+9 Department of Biomedical Engineering, NYU Tandon School of Engineering, Brooklyn,
+NY, 11201, USA
+* These authors contributed equally.
+† Correspondence: xiabo@broadinstitute.org; Jef.Boeke@nyulangone.org; Itai.Yanai@nyulangone.org
+
+
 ## Overview
 ### 01_identify_mutations
 In order to identify variants associated with the tail loss phenotype, we conducted a comparative phylogenetic study to scan for hominoid-specific variants in 140 genes (+/-10kb) related to tail development. The full gene list is attached in file gene140_location.csv (adapted from Ensembl BIOMART). Tbxt gene is used as an example for the pipeline.  
@@ -34,3 +54,8 @@ Outputs are saved in  03_predict_via_vep/.
 Rscript filter_vep_visualization.R
 ```
 Output files and plot are stored in 04_filter_vep_results/
+```
+### 05_bulk_RNA_seq
+
+
+
