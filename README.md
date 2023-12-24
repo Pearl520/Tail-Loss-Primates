@@ -18,6 +18,7 @@ Bo Xia1,2,3,4†, Weimin Zhang2*, Guisheng Zhao1,2*, Xinru Zhang3,5*, Jiangshan 
 9 Department of Biomedical Engineering, NYU Tandon School of Engineering, Brooklyn,
 NY, 11201, USA
 * These authors contributed equally.
+
 † Correspondence: xiabo@broadinstitute.org; Jef.Boeke@nyulangone.org; Itai.Yanai@nyulangone.org
 
 
@@ -57,6 +58,7 @@ Rscript filter_vep_visualization.R
 Output files and plot are stored in 04_filter_vep_results/
 
 ### 05_bulk_RNA_seq
+This folder contains files for bulk RNA-seq analysis presented in Extended Data Fig 9. 
 
 
 
