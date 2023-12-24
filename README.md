@@ -17,9 +17,10 @@ Bo Xia1,2,3,4†, Weimin Zhang2*, Guisheng Zhao1,2*, Xinru Zhang3,5*, Jiangshan 
 8 Department of Biochemistry and Molecular Pharmacology, NYU Langone Health, New York, NY 10016, USA
 9 Department of Biomedical Engineering, NYU Tandon School of Engineering, Brooklyn,
 NY, 11201, USA
-* These authors contributed equally.
 
-† Correspondence: xiabo@broadinstitute.org; Jef.Boeke@nyulangone.org; Itai.Yanai@nyulangone.org
+*These authors contributed equally.
+
+†Correspondence: xiabo@broadinstitute.org; Jef.Boeke@nyulangone.org; Itai.Yanai@nyulangone.org
 
 
 ## Overview
