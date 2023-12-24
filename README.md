@@ -1,7 +1,8 @@
 # Tail-Loss-Primates
 This repository contains scripts and processed data used for the project studying the genetic basis of tail-loss evolution in humans and apes (hominoids). 
 
-The related manuscript information: 
+The related manuscript information:  
+
 Title: On the genetic basis of tail-loss evolution in humans and apes
 
 Bo Xia1,2,3,4†, Weimin Zhang2*, Guisheng Zhao1,2*, Xinru Zhang3,5*, Jiangshan Bai3, Ran Brosh2, Aleksandra Wudzinska2, Emily Huang2, Hannah Ashe2, Gwen Ellis2, Maayan Pour1,2, Yu Zhao2, Camila Coelho2, Yinan Zhu2, Alexander Miller6, Jeremy S. Dasen6, Matthew T. Maurano2, Sang Y. Kim7, Jef D. Boeke2,8,9† and Itai Yanai1,2,8†
@@ -54,7 +55,7 @@ Outputs are saved in  03_predict_via_vep/.
 Rscript filter_vep_visualization.R
 ```
 Output files and plot are stored in 04_filter_vep_results/
-```
+
 ### 05_bulk_RNA_seq
 
 
