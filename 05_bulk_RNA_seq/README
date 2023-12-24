@@ -1,4 +1,4 @@
-This folder contains files for bulk RNA-seq analysis, which is for extended Fig 9. 
+This folder contains files for bulk RNA-seq analysis, which is for Extended Data Fig 9. 
 
 PNAS_genes.csv is the file contains genes bound by Tbxt from Lolas et al.(2014)(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970479/).
 
