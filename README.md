@@ -9,7 +9,7 @@ Bo Xia1,2,3,4†, Weimin Zhang2*, Guisheng Zhao1,2*, Xinru Zhang3,5*, Jiangshan 
 
 1 Institute for Computational Medicine, NYU Langone Health, New York, NY 10016, USA
 2 Institute for Systems Genetics, NYU Langone Health, New York, NY 10016, USA
-3 Gene Regulation Observatory, Institute of MIT and Harvard, Cambridge, MA, 02142, USA
+3 Gene Regulation Observatory, Broad Institute of MIT and Harvard, Cambridge, MA, 02142, USA
 4 Society of Fellows, Harvard University, Cambridge, MA, 02138, USA
 5 Department of Biology, Pennsylvania State University, University Park, PA, 16802, USA
 6 Department of Neuroscience and Physiology, NYU Langone Health, New York, NY 10016, USA
