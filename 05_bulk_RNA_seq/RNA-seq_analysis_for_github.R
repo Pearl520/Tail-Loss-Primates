@@ -505,7 +505,23 @@ res1_diff_gene <- res1[abs(res1$log2FoldChange) > 0.5, ]
 res2_diff_gene <- res2[abs(res2$log2FoldChange) > 0.5, ]
 res3_diff_gene <- res3[abs(res3$log2FoldChange) > 0.5, ]
 ```
+### get raw counts with gene length and genename
+```{r}
+# Ensure row names are part of the data
+data$RowName <- rownames(data)
+result_df$RowName <- rownames(result_df)
 
+# Merge the datasets based on this new RowName column
+merged_data <- merge(data, result_df, by.x = "RowName", by.y = "RowName")
+
+# If you no longer need the RowName column, you can remove it
+merged_data$RowName <- NULL
+
+```
+
+```{r}
+counts_annotated_len <- merge(merged_data, my_annotation, by = "gene_id", all = TRUE)
+```
 
 ```{r}
 # Assuming res1, res2, and res3 are your data frames
